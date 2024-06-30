@@ -1,0 +1,41 @@
+/* Define styles for sidebar */
+.sidebar {
+  height: 100vh !important; /* Ensure sidebar covers entire height of viewport */
+  /* border-radius: 5px; */ /* Commented out border-radius */
+  background-color: #2e3200; /* Background color for sidebar */
+  box-shadow: 0 0 2px gray; /* Apply a subtle box shadow */
+  color: white; /* Text color */
+}
+
+/* Styles for menu items */
+.menu {
+  padding-top: 100px; /* Top padding for menu */
+}
+
+.menu-item {
+  padding-top: 30px; /* Padding between menu items */
+}
+
+.menu-item a {
+  color: white; /* Text color for menu item links */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 1.2rem; /* Font size for menu item links */
+}
+
+.menu-item i {
+  font-size: 1.2rem; /* Font size for icons within menu items */
+  margin: 0 15px; /* Margin around icons */
+  color: white; /* Icon color */
+}
+
+/* Styles for active menu item */
+.active {
+  background-color: white; /* Background color when menu item is active */
+  padding: 10px; /* Padding for active menu item */
+  margin-top: 25px; /* Top margin for active menu item */
+}
+
+.active a,
+.active i {
+  color: #2e3200; /* Text and icon color when menu item is active */
+}

@@ -1,0 +1,64 @@
+/* Reset styles for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */ /* Uncomment this line if you want to hide overflowing content */
+}
+
+/* Styles for form banner image */
+.form-banner img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Styles for form container */
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Minimum height of viewport height for centering */
+}
+
+/* Styles for loader container */
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full height of viewport */
+  background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black background */
+}
+
+/* Styles for loader animation */
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #fff; /* White border */
+  border-bottom-color: #ff3d00; /* Orange border for animation */
+  border-radius: 50%; /* Circle shape */
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite; /* Rotation animation */
+}
+
+/* Keyframes for loader rotation */
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Styles for navbar */
+.navbar {
+  background-color: black !important; /* Black background */
+  color: white !important; /* White text color */
+}
+
+.nav-link,
+.navbar-brand {
+  background-color: black !important; /* Black background */
+  color: white !important; /* White text color */
+}
