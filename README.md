@@ -1,4 +1,3 @@
-Sure, here's the continuation of the README with detailed explanations for each directory and file:
 
 ---
 
